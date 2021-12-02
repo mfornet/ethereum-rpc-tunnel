@@ -8,6 +8,8 @@
 3. Run:
    `python3 main.py`
 
+This will open a (flask) server listening at `http://127.0.0.1:5432/`. Change your app endpoint to this address, and check the terminal to see all request and responses while the app is running.
+
 ## Use custom endpoint
 
 By default it will use `http://mainnet.aurora.dev/` as the endpoint. If you want to change (for example to specify an API KEY), use environment variable `RPC`.
